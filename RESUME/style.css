@@ -1,0 +1,291 @@
+body{
+   font-family: Arial, Helvetica, sans-serif; 
+}
+.main-container
+{
+    display: flex;
+    width: 100%;
+}
+.flex-container
+{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    height: 60px;
+    
+}
+.menu
+{
+    min-width: 100px;
+    color:white;
+    font-size: 1.0em;
+    text-align: center;
+    padding: 20px;   
+}
+.image-container{
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+#banner-image
+{
+    width: 100%;
+    height: 800px;
+    opacity: 0.8;
+}
+.banner-title{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-size: 4em;
+}
+.banner-subtitle
+{
+    position: absolute;
+    top: 41%;
+    left: 18%;
+    font-size: 2em;
+    
+}
+.skill-container{
+    display: flex
+    width:100%;
+    justify-content:center;
+    height: 500px;
+    margin-top:50px;
+    margin-left: auto;
+}
+
+.skill1{
+    display: flex;
+    width:25%;
+    justify-content:center;
+    float: left;
+    margin-top:50px;
+    margin-left: 100px;
+    }
+#image{
+width:100px;
+height:100px;
+margin-right:20px;
+position: relative;
+
+}
+#skill-text
+{
+    color: black;
+    margin-top: 60px;
+    font-weight:bold;
+    font-size:2em;
+    
+
+}
+.skills-heading{
+    display: flex;
+    widows: 100%;
+    height: 100px;
+    color:white;
+    background-color: black;
+    font-size:4em;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    padding: 20px;
+    border: 4px solid;
+    }
+.skill-title{
+    margin-left: 550px;
+    margin-top: 15px;
+}
+.portfolio-heading
+{
+    display: flex;
+    widows: 100%;
+    height: 100px;
+    margin-top: 50px;
+    font-size: 4em;
+    margin-bottom: 10px;
+    border: 4px solid;
+    color:white;
+    background-color: black;
+    padding: 20px;
+    }
+.portfolio-title
+{
+    margin-left: 450px;
+    margin-top: 15px;
+}
+.portfolio-container{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 100px;   
+}
+#portfolioimg{
+    height: 400px;
+    width: 300px;
+    margin-left: 100px;
+}
+.portfolio-desc{
+    scroll-margin-left: 20px;
+}
+.portfolio-name{
+    font-size: 2em;
+    margin-left: 100px;
+}
+.portfolio-info{
+    font-size: 1em;
+    margin-left: 100px;
+    color: gray;
+}
+
+
+
+
+.contact-heading
+{
+    display: flex;
+    widows: 100%;
+    height: 100px;
+    margin-top: 50px;
+    font-size: 4em;
+    margin-bottom: 10px;
+    border: 4px solid;
+    color:white;
+    background-color: black;
+    padding: 20px;
+    }
+.contact-title
+{
+    margin-left: 550px;
+    margin-top: 15px;
+}
+#contactimage{
+    width:150px;
+    height:150px;
+    margin-right:20px;
+    
+    }
+    .contact1{
+        
+        display: flex;
+        width:25%;
+        justify-content:center;
+        float: left;
+        margin-top:50px;
+        margin-left: 100px;
+        }
+        #contact-text
+        {
+            color: black;
+            margin-top: 28px;
+           
+            font-weight:bold;
+            font-size:1.5em;
+        }  
+       a { 
+            color: red; 
+            text-decoration: none;
+        }
+        a:hover {
+            color: white;
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          html, body { 
+            width: 100%; 
+            height: 100%;
+            margin: 0; 
+            padding: 0;
+           
+          }
+          
+          svg {
+            position: absolute;
+            width: 140px;
+            height: 140px;
+            top: 250px; right: 0;
+            bottom: 100px; left: 100px; 
+            margin: auto;
+          }
+          .credit {
+            position: absolute;
+            bottom: 50px;
+            width: 100%;
+            text-align: center;
+          }
+          
+          .credit a {
+            color: #FDB515;
+            font: 800 75% "Open Sans", sans-serif;
+            text-transform: uppercase;
+            text-decoration: none;
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
